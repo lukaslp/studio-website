@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 function HeroSection({
-    lightBg, topLine, lightText, lightTextDesc, headline, 
+    objNumber, lightBg, topLine, lightText, lightTextDesc, headline, 
     description, buttonLabel, img, alt, imgStart
 }) {
     return (
         <>
-            <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
+            <div 
+                className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
+                id = {`home_hero-${objNumber}`} >
                 <div className='container'>
                     <div className="row home__hero-row"
                     style={{display:'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}

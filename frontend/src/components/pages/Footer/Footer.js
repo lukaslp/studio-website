@@ -16,10 +16,13 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+          Não enxergou algo em que possamos te ajudar mas quer entrar em contato?
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Deixa seu email com a gente.
+        </p>
+        <p className='footer-subscription-text'>
+          Ou então manda um zap, vamo ficar felizao de falar com você.
         </p>
         <div className='input-areas'>
           <form>
@@ -27,16 +30,16 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Seu email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Quero trocar ideia</Button>
           </form>
         </div>
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>About Us</h2>
+            <h2>Sobre nós</h2>
             <Link to='/sign-up'>Sobre Nós</Link>
             <Link to='/'>Portfólio</Link>
           </div>
