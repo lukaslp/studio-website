@@ -30,9 +30,6 @@ function Pricing() {
                                         <li>5 minutos de instalação</li>
                                         <li>5 minutos de teste</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Liga nós
-                                    </Button>
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="pricing__container-card">
@@ -47,9 +44,6 @@ function Pricing() {
                                         <li>4 horas no mês</li>
                                         <li>Espaçadas como quiser</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='green'>
-                                        Vamo ai
-                                    </Button>
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="pricing__container-card">
@@ -65,9 +59,6 @@ function Pricing() {
                                         <li>Max 8 horas por semana</li>
                                         <li>Ideal para projetos longos</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='blue'>
-                                        Eita papai
-                                    </Button>
                                 </div>
                             </Link>
                         </div>
@@ -173,9 +164,6 @@ export const Pricing3 = () => {
                                         <li>5 minutos para instalação</li>
                                         <li>5 minutos para teste</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='primary'>
-                                        Vamo que Vamo
-                                    </Button>
                                 </div>
                             </Link>
                             <Link to="/sign-up" className="pricing__container-card">
@@ -183,16 +171,27 @@ export const Pricing3 = () => {
                                     <div className="icon">
                                         <GiCrystalize />
                                     </div>
-                                    <h3>Com edição</h3>
+                                    <h3>Edição de aúdio</h3>
                                     <h4>R$ 180,00</h4>
                                     <p>por hora de gravação</p>
                                     <ul className="pricing__container-features">
                                         <li>50 minutos gravados</li>
                                         <li>Edição de Aúdio</li>
                                     </ul>
-                                    <Button buttonSize='btn--wide' buttonColor='blue'>
-                                        Agora vai
-                                    </Button>
+                                </div>
+                            </Link>
+                            <Link to="/sign-up" className="pricing__container-card">
+                                <div className="pricing__container-cardInfo">
+                                    <div className="icon">
+                                        <GiCrystalize />
+                                    </div>
+                                    <h3>Edição de aúdio e vídeo</h3>
+                                    <h4>R$ 220,00</h4>
+                                    <p>por hora de gravação</p>
+                                    <ul className="pricing__container-features">
+                                        <li>50 minutos gravados</li>
+                                        <li>Edição de Aúdio e Vídeo</li>
+                                    </ul>
                                 </div>
                             </Link>
                         </div>

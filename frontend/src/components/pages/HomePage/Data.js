@@ -65,13 +65,23 @@ export const homeObjTwo = {
     topLine: '',
     headline: 'Gabriel Martins',
     description:
-      'Produtor musical e beatmaker com o alias BreuBeatz, ama chupar rola',
+      'Produtor musical e beatmaker com o alias BreuBeatz',
     imgStart: '',
     img: 'images/Gabriel.jpg',
     alt: 'Vault',
-    headline2: 'Lukas Lopes',
+    headline2: 'Júlio Ribeiro',
     description2:
+      'Estudante de Ciências Contábeis, curte um rap e usar umas droga',
+    img2: 'images/Julio.jpg',
+    alt2: 'Vault',
+    headline3: 'Lucas Brilhante',
+    description3:
+      'Jogador caro, torce ceará e sepa curte um rap tbm',
+    img3: 'images/Lucas.jpg',
+    alt3: 'Vault',
+    headline4: 'Lukas Lopes',
+    description4:
       'Estudante de Engenharia metido a produtor musical',
-    img2: 'images/Lukas.jpg',
-    alt2: 'Vault'
+    img4: 'images/Lukas.jpg',
+    alt4: 'Vault'
   };

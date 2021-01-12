@@ -17,12 +17,12 @@
     align-content: stretch;
   }
   
-  .col {
+  .col-team-section {
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
-    flex: 1;
-    max-width: 50%;
+    flex: 1 0 25%;
+    max-width: 25%;
     flex-basis: 50%;
   }
   
@@ -44,7 +44,7 @@
   
   .heading {
     margin-bottom: 24px;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 1.1;
     font-weight: 600;
     color: #f7f8fa;
@@ -63,6 +63,7 @@
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
   
   .home__team-img-wrapper {
@@ -73,11 +74,7 @@
     max-width: 50%;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 10px;
     padding-right: 0;
-  }
-  
-  img {
     border-radius: 50%;
     max-width: 100%;
     vertical-align: middle;

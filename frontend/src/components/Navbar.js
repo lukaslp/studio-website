@@ -99,7 +99,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item">
                             <ScrollLink 
-                                    to='home_hero-4' 
+                                    to='home__team-section' 
                                     className="nav-links"
                                     onClick={closeMobileMenu} 
                                     smooth={true} 
